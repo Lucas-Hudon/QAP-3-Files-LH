@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Online</title>
+    <link rel="stylesheet" href="../Styles/cafe.css" />
+
+    <style>
+      .error,
+      .success {
+        color: white;
+        width: 100%;
+        border: 1 px solid black;
+        padding: 5px 10px;
+      }
+
+      .error {
+        background-color: red;
+      }
+
+      .success {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainbox3">
+      <!-- The header section -->
+      <header>
+        <h1 class="title">Order Online</h1>
+      </header>
+
+      <!-- The navigation section-->
+      <nav class="navbox">
+        | &nbsp;&nbsp;&nbsp; <a href="../home.html">Home</a> &nbsp;&nbsp;&nbsp;
+        | &nbsp;&nbsp;&nbsp; <a href="menu.html">Menu</a> &nbsp;&nbsp;&nbsp; |
+      </nav>
+
+      <!-- The order table-->
+      <div class="table-box">
+        <h1>Your Order</h1>
+        <table class="u-full-width">
+          <thead>
+            <th>Main</th>
+            <th>Side</th>
+            <th>Drink</th>
+          </thead>
+          <tbody id="list"></tbody>
+        </table>
+      </div>
+
+      <!-- Button to clear table -->
+      <div class="clearButton">
+        <input
+          type="button"
+          value="Clear"
+          id="deleteData"
+          onclick="document.querySelector('table > tbody').innerHTML = '';"
+        />
+      </div>
+
+      <!-- The information collection section -->
+      <div class="container">
+        <h1>Customer Details</h1>
+        <div id="notification2"></div>
+        <form id="form2">
+          <div class="details-box">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" class="info-bar" />
+          </div>
+          <div class="details-box">
+            <label for="phoneNum">Phone Number</label>
+            <input type="text" id="phoneNum" name="phoneNum" class="info-bar" />
+          </div>
+          <div class="details-box">
+            <label for="delivery">Delivery Address</label>
+            <input type="text" id="delivery" name="delivery" class="info-bar" />
+          </div>
+          <div class="orderButtonBox">
+            <button type="submit" class="orderButton2">PLACE ORDER</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="../Scripts/order.js"></script>
+  </body>
+</html>

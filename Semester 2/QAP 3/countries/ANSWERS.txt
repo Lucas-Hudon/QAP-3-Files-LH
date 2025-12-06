@@ -1,0 +1,19 @@
+1. How many hours did it take you to complete this assessment?
+
+Answer: It took me about 3 to 4 hours for the App.jsx file, most of that time was spent trying to figure out why the API link was not working for me, as it kept giving me an error when I tried to use it. I spent about somewhere between 7 and 10 hours working on the files to display the specific countries, but when I tried importing it to App.jsx I kept getting errors, and I tried to find a way to display the data without getting an error but was unable to. I couldn't find any information online that was useful either, because any website or YouTube video I tried looking at only went over how to log the API data in the console.
+
+2. What online resources do you use? (My lectures, YouTube, Stack Overflow etc.)
+
+Answer: I used the lectures and notes, and tried using YouTube but was unable to find any videos that helped me.
+
+3. Did you need to ask any of your friends in solving the problems?
+
+Answer: I did not ask any friends for help.
+
+4. Did you need to ask questions to any of your instructors?
+
+Answer: I did not ask any questions.
+
+5. Rate (subjectively) the difficulty of Making this all! from your own perspective, and whether you feel confident that you can solve a similar but different problem requiring some of the same techniques in the future now that you’ve completed this one.
+
+Answer: I don't think it was too hard, maybe a 7 out of 10. Most of my difficulty was from struggling to find any useful information online when I was unsure of something, even though I was confident I would be able to because I have before. I feel like I could probably figure out a similar problem in the future, but figuring out how to display data is something I struggle with.
